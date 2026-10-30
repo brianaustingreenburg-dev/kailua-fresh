@@ -156,7 +156,7 @@ img{max-width:100%}
   <p class="sec-note" data-t="wifiNote"></p>
   <dl class="wf">
     <div><dt data-t="net"></dt><dd id="ssid">INFINITUM7B29</dd></div>
-    <div><dt data-t="pwd"></dt><dd><span id="pwd">xS53xkFUKf</span> <button class="copy" id="copyPwd" type="button"></button></dd></div>
+    <div><dt data-t="pwd"></dt><dd><span id="pwd">xS53xkfUKf</span> <button class="copy" id="copyPwd" type="button"></button></dd></div>
   </dl>
 </section></div>
 
@@ -268,7 +268,7 @@ document.querySelectorAll(".strip img").forEach(i=>i.src=IMG[i.dataset.k]);
 $("#copyPwd").onclick=()=>{
   const b=$("#copyPwd");const done=()=>{b.textContent=UI[L].copied;setTimeout(()=>b.textContent=UI[L].copy,1600)};
   const fb=()=>{const r=document.createRange();r.selectNodeContents($("#pwd"));const sel=getSelection();sel.removeAllRanges();sel.addRange(r)};
-  try{navigator.clipboard.writeText("xS53xkFUKf").then(done,fb)}catch(e){fb()}
+  try{navigator.clipboard.writeText("xS53xkfUKf").then(done,fb)}catch(e){fb()}
 };
 let deferredPrompt=null;
 const isStandalone=()=>matchMedia("(display-mode: standalone)").matches||navigator.standalone===true;
