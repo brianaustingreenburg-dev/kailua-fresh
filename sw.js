@@ -1,5 +1,5 @@
 // Kailúa Fresh offline app: keeps the whole menu on the phone after the first visit.
-const CACHE = "kailua-fresh-v4";
+const CACHE = "kailua-fresh-v5";
 const FILES = [
   "./",
   "./index.html",
